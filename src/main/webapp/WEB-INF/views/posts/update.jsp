@@ -16,15 +16,15 @@
                 </div>
                 <div class="card-body">                
                     <div class="mb-3">
-                        <label for="title" class="form-label">제목</label>
+                        <label for="title" class="form-label">제목<span class="text-danger">*</span></label>
                         <input type="text" class="form-control" id="title" name="title" placeholder="제목을 입력하세요" required value="${postsVo.title}">
                     </div>
                     <div class="mb-3">
-                        <label for="content" class="form-label">내용</label>
+                        <label for="content" class="form-label">내용<span class="text-danger">*</span></label>
                         <textarea class="form-control" id="content" name="content" rows="5" placeholder="내용을 입력하세요" required>${postsVo.content}</textarea>
                     </div>
                     <div class="mb-3">
-                        <label for="username" class="form-label">작성자</label>
+                        <label for="username" class="form-label">작성자<span class="text-danger">*</span></label>
                         <input type="text" class="form-control" id="username" name="username" placeholder="작성자를 입력하세요" required value="${postsVo.username}">
                     </div>
                     <div class="mb-3">
