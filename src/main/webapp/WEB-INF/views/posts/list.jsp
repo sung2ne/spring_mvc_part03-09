@@ -5,10 +5,10 @@
 <%@ include file="../base/title.jsp" %>
 <%@ include file="../base/message.jsp" %>
 
-<!-- 페이지 내용 -->
+<%-- 페이지 내용 --%>
 <div class="row">
     <div class="col-12">
-        <!-- 게시글 목록 -->
+        <%-- 게시글 목록 --%>
         <div class="mb-3">
             <a href="/posts/create/" class="btn btn-primary">게시글 등록</a>
         </div>
@@ -34,17 +34,17 @@
                 </c:forEach>
             </tbody>
         </table>
-        <!--// 게시글 목록 -->
+        <%--// 게시글 목록 --%>
     </div>
 </div>
-<!--// 페이지 내용 -->
+<%--// 페이지 내용 --%>
 
 <%@ include file="../base/script.jsp" %>
 
-<!-- script -->
+<%-- script --%>
 <script>
     /* 자바스크립트 */
 </script>
-<!--// script -->
+<%--// script --%>
 
 <%@ include file="../base/bottom.jsp" %>

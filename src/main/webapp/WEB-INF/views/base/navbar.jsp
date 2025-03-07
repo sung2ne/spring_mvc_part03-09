@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
 
-<!-- 네비게이션 -->
+<%-- 네비게이션 --%>
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container">
         <a class="navbar-brand" href="#">스프링 MVC 프로젝트</a>
@@ -26,4 +26,4 @@
         </div>
     </div>
 </nav>
-<!--// 네비게이션 -->
+<%--// 네비게이션 --%>

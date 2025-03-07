@@ -6,10 +6,10 @@
 <%@ include file="../base/title.jsp" %>
 <%@ include file="../base/message.jsp" %>
 
-<!-- 페이지 내용 -->
+<%-- 페이지 내용 --%>
 <div class="row">
     <div class="col-12">
-        <!-- 게시글 보기 -->
+        <%-- 게시글 보기 --%>
         <div class="card mb-3">
             <h5 class="card-header text-primary">
                 <strong>${postsVo.title}</strong>
@@ -28,12 +28,12 @@
             <a href="/posts/${postsVo.id}/update" class="btn btn-warning">수정</a>
             <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal">삭제</button>
         </div>
-        <!--// 게시글 보기 -->
+        <%--// 게시글 보기 --%>
     </div>
 </div>
-<!--// 페이지 내용 -->
+<%--// 페이지 내용 --%>
 
-<!-- 삭제 모달 -->
+<%-- 삭제 모달 --%>
 <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -61,14 +61,14 @@
         </div>
     </div>
 </div>
-<!-- 삭제 모달 -->
+<%-- 삭제 모달 --%>
 
 <%@ include file="../base/script.jsp" %>
 
-<!-- script -->
+<%-- script --%>
 <script>
     /* 자바스크립트 */
 </script>
-<!--// script -->
+<%--// script --%>
 
 <%@ include file="../base/bottom.jsp" %>

@@ -10,13 +10,7 @@ public class PostsService {
     
     @Autowired
     PostsDao postsDao;
-
-    // 비밀번호 검증
-    private boolean verifyPassword(int id, String password) {
-        PostsVo posts = postsDao.read(id);
-        return posts != null && posts.getPassword().equals(password);
-    }
-
+    
     // 게시글 등록
     public boolean create(PostsVo postsVo) {
         int result = postsDao.create(postsVo);

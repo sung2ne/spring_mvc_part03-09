@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>스프링 MVC 프로젝트</title>
-    <!-- Bootstrap CSS -->
+    <%-- Bootstrap CSS --%>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- STATIC CSS -->
+    <%-- STATIC CSS --%>
     <link rel="stylesheet" href="resources/static/style.css">
     <style>
         body {
